@@ -123,6 +123,6 @@ binding.emojiPicker.setOnEmojiPickedListener { emojiItem ->
 
 ---
 
-## Demo (Posnetek zaslona)
+## Demo (GIF postopka dodajanja v moji aplikaciji)
 
-![Zaslonski posnetek aplikacije](demo_screenshot.png)
+![Zaslonski posnetek aplikacije](/vsebina/prikaz_uporabe_emoji2.gif)
