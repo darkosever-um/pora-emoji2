@@ -122,6 +122,15 @@ binding.emojiPicker.setOnEmojiPickedListener { emojiItem ->
 ```
 
 ---
+### Shranjevanje emojijev
+
+Emoji se v aplikaciji shranjuje kot **navaden Unicode niz (`String`)** v **UTF-16 formatu** (standard v Kotlinu/Javi).
+
+- Emoji **ni posebni tip podatka** – je del besedila
+- En emoji je lahko sestavljen iz **več `Char` znakov** (surrogate pairs / ZWJ zaporedja)
+- V podatkovnih virih (Room, SQLite, JSON, SharedPreferences, API) se shrani kot običajen `TEXT`
+
+___
 
 ## Demo (GIF postopka dodajanja v moji aplikaciji)
 
